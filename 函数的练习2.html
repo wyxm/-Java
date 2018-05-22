@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+//    1. 求任意数组中的最大值
+function max(arr){
+  var max1=arr[0];
+  for(var j=0;j<arr.length;j++){
+    if(max1<=arr[j]){
+      max1=arr[j];
+    }
+
+  }
+  return max1;
+}
+console.log(max([2,3,5,7,8]));
+//    2. 求任意数组中的最小值
+//function min(arr){
+//  var min=arr[0];
+//  for(var i=0;i<arr.length;i++){
+//    if(min>arr[i]){
+//      min=arr[i];
+//    }
+//  }
+//  return  min;
+//}
+//console.log(min([1, 2, 3, 4, 5, 6]));
+//    3. 翻转任意数组，返回一个新的数组
+//function dao(arr){
+//  var newArr=[];
+//  for(var j=arr.length-1;j>=0;j--){
+//    newArr.push(arr[j]);
+//  }
+//  return newArr;
+//}
+//console.log(dao([1,2,3,4,5,6,7]));
+//    4. 对任意数组从小到大排序
+//    function bubbleSort(arr){
+//      for(var i=0;i<arr.length-1;i++){
+//        for(var j=0;j<arr.length-1-i;j++){
+//          if(arr[j]>arr[j+1]){
+//            var c=arr[j];
+//            arr[j]=arr[j+1];
+//            arr[j+1]=c;
+//          }
+//        }
+//      }
+//      return  arr;
+//    }
+//console.log(bubbleSort([22,33,11,44,55,88]));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

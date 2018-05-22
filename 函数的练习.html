@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+//    1. 封装一个打招呼的函数
+//      function hello(){
+//        alert("你好啊");
+//      };
+//     hello();
+//    2. 封装一个函数，计算两个数的和
+//   function sum(){
+//     var a=1;
+//     var b=2;
+//     document.write(a+b);
+//   };
+//   sum();
+//    3. 封装一个函数，计算1-100之间所有数的和
+//    function sum1(){
+//      var sum1=0;
+//      for(var j=1;j<=100;j++){
+//        sum1+=j;
+//      }
+//     document.write(sum1);
+//    }
+//    sum1();
+//    函数的传参
+
+//1. 计算1-n之间所有数的和
+//function sum(n){
+//  var sum=0;
+//  for(var j=1;j<=n;j++){
+//    sum+=j;
+//  }
+//  console.log(sum);
+//}
+//sum(9);
+//2. 计算m-n之间所有数的和
+//function sum(m,n){
+//  var sum=0;
+//  for(var j=m;j<=n;j++){
+//    sum+=j;
+//  }
+//  document.write(sum);
+//}
+//sum(1,50);
+//3. 班级有五个学生  计算着五个学生的总成绩
+//var arr=[12,33,44,55,66];
+    function sum(arr){
+      var sum=0;
+      for(var j=0;j<arr.length;j++){
+        sum+=arr[j];
+      }
+//
+      return sum;
+    }
+console.log(sum([4, 2, 4, 2, 4]));
+  </script>
+</head>
+<body>
+
+</body>
+</html>
